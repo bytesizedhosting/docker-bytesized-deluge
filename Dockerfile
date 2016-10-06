@@ -9,6 +9,6 @@ RUN apk add --no-cache --repository http://nl.alpinelinux.org/alpine/edge/commun
 
 EXPOSE 8112 58846 58946 58946/udp
 
-VOLUME /config /data
+VOLUME /config /data /media
 
 COPY static/ /
